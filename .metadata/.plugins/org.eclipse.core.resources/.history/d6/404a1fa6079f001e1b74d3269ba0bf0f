@@ -1,0 +1,5 @@
+package com.ambm.modelo.dto;
+
+public class Estadio {
+
+}

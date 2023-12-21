@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@page import="com.ambm.modelo.dto.Producto_categoria"%>
+<%@page import="java.util.List"%>
+<%
+List<Producto_categori> listaProductos = new ArrayList<Producto_categori>();
+if (request.getAttribute("atr_listaproductos") != null) {
+ listaProductos = (List<Producto_categori>) request.getAttribute("atr_listaproductos");
+}
+%>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<p>Hola</p>
+
+</body>
+</html>

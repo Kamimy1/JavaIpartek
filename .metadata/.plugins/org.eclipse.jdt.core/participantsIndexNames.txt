@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+D:\JavaIpartek\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\791824840.index
+\Plantilla\src\main\java
+D:\JavaIpartek\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1057060331.index
+\P01_Estadios\src\main\java
+D:\JavaIpartek\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3459036662.index
+\TiendaComicsPipo2\src\main\java
+D:\JavaIpartek\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2303733410.index
+\E001_HolaMundo\src\main\java
+D:\JavaIpartek\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2391149796.index
+\E001_HolaMundo\src\main\java
+D:\JavaIpartek\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3551287197.index
+\TiendaComicsPipo\src\main\java
