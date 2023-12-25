@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="com.AMBM.modelo.DB_Helper"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.ambm.modelo.dto.Producto"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.CallableStatement"/>
     <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
@@ -14,4 +13,5 @@
     <fullyQualifiedTypeName name="com.ambm.modelo.dto.Estadio"/>
     <fullyQualifiedTypeName name="com.ambm.modelo.DB_Helper"/>
     <fullyQualifiedTypeName name="com.ambm.modelo.dto.Producto_categoria"/>
+    <fullyQualifiedTypeName name="com.ambm.modelo.dto.Producto"/>
 </qualifiedTypeNameHistroy>

@@ -1,10 +1,11 @@
-package com.ambm.modelo.dto;
+package com.ipartek.modelo.dto;
 
 public class Categoria {
-
+	
+	
 	private int id;
 	private String categoria;
-
+	
 	public Categoria(int id, String categoria) {
 		super();
 		this.id = id;

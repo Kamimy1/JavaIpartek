@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="E001_HolaMundo" path="/E001_HolaMundo" reloadable="true" source="org.eclipse.jst.jee.server:E001_HolaMundo"/><Context docBase="TiendaComicsPipo" path="/TiendaComicsPipo" reloadable="true" source="org.eclipse.jst.jee.server:TiendaComicsPipo"/><Context docBase="P01_Estadios" path="/P01_Estadios" reloadable="true" source="org.eclipse.jst.jee.server:P01_Estadios"/><Context docBase="Plantilla" path="/Plantilla" reloadable="true" source="org.eclipse.jst.jee.server:Plantilla"/><Context docBase="TiendaComicsPipo2" path="/TiendaComicsPipo2" reloadable="true" source="org.eclipse.jst.jee.server:TiendaComicsPipo2"/></Host>
+      <Context docBase="E001_HolaMundo" path="/E001_HolaMundo" reloadable="true" source="org.eclipse.jst.jee.server:E001_HolaMundo"/><Context docBase="TiendaComicsPipo" path="/TiendaComicsPipo" reloadable="true" source="org.eclipse.jst.jee.server:TiendaComicsPipo"/><Context docBase="P01_Estadios" path="/P01_Estadios" reloadable="true" source="org.eclipse.jst.jee.server:P01_Estadios"/><Context docBase="Plantilla" path="/Plantilla" reloadable="true" source="org.eclipse.jst.jee.server:Plantilla"/></Host>
     </Engine>
   </Service>
 </Server>

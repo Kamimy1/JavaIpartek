@@ -1,25 +1,26 @@
-package com.ambm.modelo.dto;
+package com.ipartek.modelo.dto;
 
 public class Producto {
 
-	private int id, fk_categoria;
+	private int id;
 	private String nombre;
 	private double precio;
-
-	public Producto(int id, int fk_categoria, String nombre, double precio) {
+	private int fk_categoria;
+	
+	public Producto(int id, String nombre, double precio, int fk_categoria) {
 		super();
 		this.id = id;
-		this.fk_categoria = fk_categoria;
 		this.nombre = nombre;
 		this.precio = precio;
+		this.fk_categoria = fk_categoria;
 	}
-
+	
 	public Producto() {
 		super();
 		this.id = 0;
-		this.fk_categoria = 0;
 		this.nombre = "";
 		this.precio = 0.0;
+		this.fk_categoria = 0;
 	}
 
 	public int getId() {
@@ -28,14 +29,6 @@ public class Producto {
 
 	public void setId(int id) {
 		this.id = id;
-	}
-
-	public int getFk_categoria() {
-		return fk_categoria;
-	}
-
-	public void setFk_categoria(int fk_categoria) {
-		this.fk_categoria = fk_categoria;
 	}
 
 	public String getNombre() {
@@ -54,10 +47,24 @@ public class Producto {
 		this.precio = precio;
 	}
 
+	public int getFk_categoria() {
+		return fk_categoria;
+	}
+
+	public void setFk_categoria(int fk_categoria) {
+		this.fk_categoria = fk_categoria;
+	}
+
 	@Override
 	public String toString() {
-		return "Producto [id=" + id + ", fk_categoria=" + fk_categoria + ", nombre=" + nombre + ", precio=" + precio
+		return "Producto [id=" + id + ", nombre=" + nombre + ", precio=" + precio + ", fk_categoria=" + fk_categoria
 				+ "]";
 	}
+	
+	
+	
+	
+
+
 
 }
