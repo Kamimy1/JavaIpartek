@@ -19,14 +19,14 @@ public interface DAO_Constantes {
 	String PRODUCTOS_ID = "id";
 	String PRODUCTOS_NOMBRE = "nombre";
 	String PRODUCTOS_PRECIO = "precio";
-	String PRODUCTOS_FK_CATEGORIA = "fk_categoria";
+	String PRODUCTOS_FK_CATEGORIA = "FK_categoria";
 
 	// haced lo mismo con la vista de v_Productos
 	String VISTA_PRODUCTOS = "v_productos";
 	String V_PRODUCTOS_ID = "id";
 	String V_PRODUCTOS_NOMBRE = "nombre";
 	String V_PRODUCTOS_PRECIO = "precio";
-	String V_PRODUCTOS_FK_CATEGORIA = "fk_categoria";
+	String V_PRODUCTOS_FK_CATEGORIA = "FK_categoria";
 	String V_PRODUCTOS_CATEGORIA = "categoria";
 
 	// atributos de la mochila

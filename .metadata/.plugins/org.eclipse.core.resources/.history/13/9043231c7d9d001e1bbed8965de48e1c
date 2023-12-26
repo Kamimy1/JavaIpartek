@@ -1,5 +1,0 @@
-package com.ambm.modelo;
-
-public interface DAO_Constantes {
-
-}
