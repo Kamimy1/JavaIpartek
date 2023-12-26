@@ -14,4 +14,9 @@
     <fullyQualifiedTypeName name="com.ambm.modelo.DB_Helper"/>
     <fullyQualifiedTypeName name="com.ambm.modelo.dto.Producto_categoria"/>
     <fullyQualifiedTypeName name="com.ambm.modelo.dto.Producto"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="com.ipartek.modelo.DAO_Constantes"/>
+    <fullyQualifiedTypeName name="com.ipartek.modelo.dto.V_Producto"/>
+    <fullyQualifiedTypeName name="com.ipartek.modelo.dto.Producto"/>
+    <fullyQualifiedTypeName name="com.ipartek.modelo.dto.Categoria"/>
 </qualifiedTypeNameHistroy>

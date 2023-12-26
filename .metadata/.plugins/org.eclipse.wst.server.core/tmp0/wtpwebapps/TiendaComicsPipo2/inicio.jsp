@@ -1,6 +1,7 @@
 <%@page import="com.ipartek.modelo.DAO_Constantes"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.ipartek.modelo.dto.V_Producto"%>
+<%@page import="com.ipartek.modelo.dto.Categoria"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
@@ -11,6 +12,15 @@ List<V_Producto> listaVProducto = new ArrayList<V_Producto>();
 if(request.getAttribute(DAO_Constantes.ATR_LISTA_VPROD)!=null){
 	listaVProducto=(List<V_Producto>)request.getAttribute(DAO_Constantes.ATR_LISTA_VPROD);
 }
+
+%>
+
+<%
+List<Categoria> listaCategorias = new ArrayList<Categoria>();
+if(request.getAttribute(DAO_Constantes.ATR_LISTA_CAT)!=null){
+ listaCategorias=(List<Categoria>)request.getAttribute(DAO_Constantes.ATR_LISTA_CAT);
+}
+
 
 %>
 
@@ -41,10 +51,9 @@ if(request.getAttribute(DAO_Constantes.ATR_LISTA_VPROD)!=null){
 		<br>
 		<label for="fk_categoria">Categoria</label>
 		<select id="fk_categoria" name="fk_categoria">
-			<option value="1">Comic Americano</option>
-			<option value="2">Tebeo</option>
-			<option value="3">Manga</option>
-			<option value="4">Novela grafica</option>
+			<%for(Categoria elemento:listaCategorias){ %>
+   			<option value="<%= elemento.getId()  %>"><%= elemento.getCategoria()  %></option>
+ 			 <%} %> 
 		</select>
 		
 		<input type="submit" value="Enviar">
@@ -64,6 +73,8 @@ if(request.getAttribute(DAO_Constantes.ATR_LISTA_VPROD)!=null){
 	            <th>Precio</th>
 	           
 	            <th>Categoria</th>
+				<th>Opciones</th>
+	            
 	        </tr>
 	    </thead>
 	    <tbody>
@@ -75,11 +86,22 @@ if(request.getAttribute(DAO_Constantes.ATR_LISTA_VPROD)!=null){
 	            <td><%=elemento.getPrecio() %> Euros</td>
 	           
 	            <td><%=elemento.getCategoria() %></td>
+	            <td>
+	            	<a href="BorrarProducto?id=<%=elemento.getId()%>">
+	            	Borrar
+	            	</a>
+	            	
+	            	<a href="FormModificarProducto?id=<%= elemento.getId() %>">
+	            	Modificar
+	            	</a>
+	            </td>
 	        </tr>
 	     <%}%>  
 	        
 	    </tbody>
 	</table>
+	
+
 	
 
 </body>

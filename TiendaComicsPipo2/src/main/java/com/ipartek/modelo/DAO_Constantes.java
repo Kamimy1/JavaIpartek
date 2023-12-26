@@ -31,11 +31,17 @@ public interface DAO_Constantes {
 
 	// atributos de la mochila
 	String ATR_LISTA_VPROD = "atr_lista_vproductos";
+	String ATR_LISTA_CAT = "atr_lista_categorias";
 
 	// paginas jsp
 	String JSP_INICIO = "inicio.jsp";
+	String JSP_MODIFICAR_PRODUCTO = "modificar.jsp";
 
 	// Llamadas a los stored procedures de la BD
 	String SP_OBTENER_TODOS_PRODUCTOS_VISTA = "call sp_obtener_todos_productos_vista();";
 	String SP_INSERTAR_PRODUCTO="call sp_insertar_producto(?, ?, ?);";
+	String SP_BORRAR_PRODUCTO="call sp_borrar_producto_id(?);";
+	String SP_OBTENER_PRODUCTO="call sp_obtener_producto_por_id(?);";
+	String SP_MODIFICAR_PRODUCTO="call sp_modificar_producto(?, ?, ?, ?);";
+	String SP_OBTENER_TODAS_CATEGORIA = "call sp_obtener_todas_categorias();";
 }
