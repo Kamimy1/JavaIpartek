@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="P02_WildLife"/>
 			<item value="TiendaComicsPipo2"/>
 			<item value="Plantilla"/>
 			<item value="P01_Estadios"/>
@@ -11,6 +12,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="P02_WildLife"/>
 			<item value="TiendaComicsPipo2"/>
 			<item value="Plantilla"/>
 			<item value="P01_Estadios"/>

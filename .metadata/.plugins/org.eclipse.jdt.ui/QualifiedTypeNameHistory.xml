@@ -19,4 +19,7 @@
     <fullyQualifiedTypeName name="com.ipartek.modelo.dto.V_Producto"/>
     <fullyQualifiedTypeName name="com.ipartek.modelo.dto.Producto"/>
     <fullyQualifiedTypeName name="com.ipartek.modelo.dto.Categoria"/>
+    <fullyQualifiedTypeName name="com.ambm.modelo.dto.V_Animal"/>
+    <fullyQualifiedTypeName name="com.ambm.modelo.dto.E_Animal"/>
+    <fullyQualifiedTypeName name="com.ambm.modelo.DAO_Constantes"/>
 </qualifiedTypeNameHistroy>

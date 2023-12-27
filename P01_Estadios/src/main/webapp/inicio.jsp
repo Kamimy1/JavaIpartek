@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     <%@page import="java.util.ArrayList"%>
-<%@page import="com.ambm.modelo.dto.Estadio"%>
+<%@page import="com.p02.modelo.dto.Estadio"%>
 <%@page import="java.util.List"%>
 <%
 List<Estadio> listaEstadios = new ArrayList<Estadio>();
