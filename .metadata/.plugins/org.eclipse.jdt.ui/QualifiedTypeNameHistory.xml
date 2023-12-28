@@ -22,4 +22,9 @@
     <fullyQualifiedTypeName name="com.ambm.modelo.dto.V_Animal"/>
     <fullyQualifiedTypeName name="com.ambm.modelo.dto.E_Animal"/>
     <fullyQualifiedTypeName name="com.ambm.modelo.DAO_Constantes"/>
+    <fullyQualifiedTypeName name="com.p02.modelo.dto.E_Animal"/>
+    <fullyQualifiedTypeName name="com.p02.modelo.dto.Especie"/>
+    <fullyQualifiedTypeName name="com.p02.modelo.dto.Animal"/>
+    <fullyQualifiedTypeName name="com.p02.modelo.DB_Helper"/>
+    <fullyQualifiedTypeName name="com.p02.modelo.DAO_Constantes"/>
 </qualifiedTypeNameHistroy>

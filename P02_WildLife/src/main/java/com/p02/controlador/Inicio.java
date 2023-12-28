@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.p02.modelo.DAO_Constantes;
 import com.p02.modelo.DB_Helper;
 import com.p02.modelo.dto.E_Animal;
+import com.p02.modelo.dto.Especie;
 
 /**
  * Servlet implementation class Inicio
@@ -36,15 +37,15 @@ public class Inicio extends HttpServlet implements DAO_Constantes{
 		// TODO Auto-generated method stub
 		
 		DB_Helper db = new DB_Helper();
-		Connection con = db.contectar();
+		Connection con = db.conectar();
 
 		List<E_Animal> listEAnimal = db.obtenerTodosEAnimales(con);
-		
-		System.out.println(listEAnimal);
+		List<Especie> listaEspecies = db.obtenerTodasEspecies(con);
 
 		db.desconectar(con);
 
 		request.setAttribute(ATR_LISTA_EANIMALES, listEAnimal);
+		request.setAttribute(ATR_LISTA_ESPECIES, listaEspecies);
 	
 		request.getRequestDispatcher(JSP_INICIO).forward(request, response);
 	
