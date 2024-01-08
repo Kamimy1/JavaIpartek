@@ -87,5 +87,11 @@ if(request.getAttribute(DAO_Constantes.ATR_LISTA_ESPECIES)!=null){
 
 		</tbody>
 	</table>
+	
+	<br>
+	
+	<form method="get" action="Ficheros">
+    	<button type="submit">Ficheros</button>
+  	</form>
 </body>
 </html>

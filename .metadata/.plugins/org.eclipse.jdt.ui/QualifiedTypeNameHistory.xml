@@ -26,5 +26,6 @@
     <fullyQualifiedTypeName name="com.p02.modelo.dto.Especie"/>
     <fullyQualifiedTypeName name="com.p02.modelo.dto.Animal"/>
     <fullyQualifiedTypeName name="com.p02.modelo.DB_Helper"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="com.p02.modelo.DAO_Constantes"/>
 </qualifiedTypeNameHistroy>

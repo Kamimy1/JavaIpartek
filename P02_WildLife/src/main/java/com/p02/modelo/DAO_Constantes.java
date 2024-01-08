@@ -28,13 +28,14 @@ public interface DAO_Constantes {
 	
 	String JSP_INICIO = "inicio.jsp";
 	String JSP_FORM_MODIFICAR = "modificar.jsp";
+	String JSP_FICHEROS = "ficheros.jsp";
 	
 	String ATR_LISTA_EANIMALES = "atr_lista_eanimales";
 	String ATR_LISTA_ESPECIES = "atr_lista_especies";
 	String ATR_ANIMAL = "atr_animal";
 	
 	String SP_OBTENER_TODOS_ANIMALES_ESPECIE = "call sp_obtener_todos_animales_especie();";
-	String SP_OBTENER_TODAS_ESPECIES = "call sp_obtener_todas_categorias();";
+	String SP_OBTENER_TODAS_ESPECIES = "call sp_obtener_todas_especies();";
 	String SP_INSERTAR_ANIMAL = "call sp_insertar_animal(?, ?, ?, ?);";
 	String SP_BORRAR_ANIMAL = "call sp_borrar_animal(?);";
 	String SP_OBTENER_ANIMAL_ID = "call sp_obtener_animal_id(?);";

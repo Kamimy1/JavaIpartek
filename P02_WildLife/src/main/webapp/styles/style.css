@@ -63,3 +63,16 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #ffe082;
 }
+
+form button {
+  padding: 10px 20px;
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+
