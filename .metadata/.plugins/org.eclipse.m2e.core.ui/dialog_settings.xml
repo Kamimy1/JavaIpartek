@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Ejemplo_JSON"/>
 			<item value="P02_WildLife"/>
 			<item value="TiendaComicsPipo2"/>
 			<item value="Plantilla"/>
@@ -12,6 +13,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Ejemplo_JSON"/>
 			<item value="P02_WildLife"/>
 			<item value="TiendaComicsPipo2"/>
 			<item value="Plantilla"/>

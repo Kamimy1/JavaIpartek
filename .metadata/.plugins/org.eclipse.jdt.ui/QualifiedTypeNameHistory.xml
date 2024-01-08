@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.AMBM.modelo.DB_Helper"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.CallableStatement"/>
     <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
@@ -28,4 +27,6 @@
     <fullyQualifiedTypeName name="com.p02.modelo.DB_Helper"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="com.p02.modelo.DAO_Constantes"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
